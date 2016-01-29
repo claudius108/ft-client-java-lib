@@ -6,7 +6,7 @@
 
 	<groupId>ro.kuberam.libs.java</groupId>
 	<artifactId>ft-client</artifactId>
-	<version>1.1.1</version>
+	<version>1.1.2</version>
 	<name>Library for EXPath File Transfer Client Module</name>
 	<url>http://kuberam.ro/specs/expath/ft-client/ft-client.html</url>
 

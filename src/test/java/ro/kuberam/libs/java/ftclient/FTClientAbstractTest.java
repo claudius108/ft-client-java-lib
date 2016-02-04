@@ -36,7 +36,6 @@ public class FTClientAbstractTest extends BaseTest {
 			connectionProperties.load(FTClientAbstractTest.class
 					.getResourceAsStream("connection.properties"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

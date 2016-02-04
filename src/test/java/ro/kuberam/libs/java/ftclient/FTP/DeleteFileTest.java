@@ -1,7 +1,5 @@
 package ro.kuberam.libs.java.ftclient.FTP;
 
-import java.io.File;
-
 import org.apache.commons.net.ftp.FTPClient;
 import org.junit.Assert;
 import org.junit.Test;
@@ -18,7 +16,7 @@ public class DeleteFileTest extends FTClientAbstractTest {
 		FTPClient remoteConnection = initializeFtpConnection(connectionProperties
 				.getProperty("ftp-server-connection-url"));
 		String remoteResourcePath = "/dir-with-rights/tmp/test" + System.currentTimeMillis() + ".txt";
-		(new File("/home/ftp-user/" + remoteResourcePath)).createNewFile();
+
 		Boolean deleted = DeleteResource.deleteResource(remoteConnection, remoteResourcePath);
 		Disconnect.disconnect(remoteConnection);
 		Assert.assertTrue(deleted);

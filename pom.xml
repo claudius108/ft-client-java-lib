@@ -10,15 +10,11 @@
 	<name>Library for EXPath File Transfer Client Module</name>
 	<url>http://kuberam.ro/specs/expath/ft-client/ft-client.html</url>
 
-	<prerequisites>
-		<maven>${mavenVersion}</maven>
-	</prerequisites>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<mavenVersion>3.1.1</mavenVersion>
+		<mavenVersion>3.5.2</mavenVersion>
 	</properties>
 
 	<dependencies>

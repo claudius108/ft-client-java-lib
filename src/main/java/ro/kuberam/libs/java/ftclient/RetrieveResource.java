@@ -23,14 +23,15 @@ import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for retrieving a remote resource.
  * 
  * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
  */
 public class RetrieveResource {
-	private static final Logger log = Logger.getLogger(RetrieveResource.class);
+	private static final Logger log = LogManager.getLogger(RetrieveResource.class);
 	private static final String moduleName = ExpathFTClientModule.MODULE_NAME;
     
     public static InputStream retrieveResource(Object remoteConnection, String remoteResourcePath) throws Exception {

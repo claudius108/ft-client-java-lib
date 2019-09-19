@@ -23,7 +23,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URI;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Implements a method for opening a remote connection.
@@ -34,7 +35,7 @@ import org.apache.log4j.Logger;
 
 public class Connect {
     
-    private static final Logger log = Logger.getLogger(Connect.class);
+    private static final Logger log = LogManager.getLogger(Connect.class);
     
     public static <X> X connect(URI remoteHostUri, String options) throws Exception {
      

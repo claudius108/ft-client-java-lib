@@ -24,7 +24,8 @@ import java.lang.reflect.Method;
 
 import javax.xml.transform.stream.StreamResult;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Implements a method for getting metadata for a resource.
@@ -32,7 +33,7 @@ import org.apache.log4j.Logger;
  * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
  */
 public class GetResourceMetadata {
-	private static final Logger log = Logger.getLogger(ListResources.class);
+	private static final Logger log = LogManager.getLogger(ListResources.class);
 	private static final String moduleName = ExpathFTClientModule.MODULE_NAME;
    
     public static StreamResult getResourceMetadata(Object remoteConnection, String remoteResourcePath) throws Exception {

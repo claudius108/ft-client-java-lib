@@ -4,7 +4,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import ro.kuberam.libs.java.ftclient.FTP.FTP;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
@@ -21,7 +22,7 @@ public class ConvertResourcesList {
 		prefix = ExpathFTClientModule.PREFIX;
 	}
 	
-	private static final Logger log = Logger.getLogger(ConvertResourcesList.class);
+	private static final Logger log = LogManager.getLogger(ConvertResourcesList.class);
 
 	public static Document convert(String resourcesString) throws ParserConfigurationException {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

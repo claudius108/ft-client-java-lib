@@ -23,7 +23,8 @@ package ro.kuberam.libs.java.ftclient;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Implements a method for closing a remote connection.
@@ -31,7 +32,7 @@ import org.apache.log4j.Logger;
  * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
  */
 public class Disconnect {
-	private static final Logger log = Logger.getLogger(Disconnect.class);
+	private static final Logger log = LogManager.getLogger(Disconnect.class);
 	private static final String moduleName = ExpathFTClientModule.MODULE_NAME;
 
 	public static Boolean disconnect(Object remoteConnection) throws Exception {

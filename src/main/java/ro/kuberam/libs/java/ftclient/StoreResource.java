@@ -23,7 +23,8 @@ import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Implements a method for storing a resource to a remote directory.
@@ -31,7 +32,7 @@ import org.apache.log4j.Logger;
  * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
  */
 public class StoreResource {
-	private static final Logger log = Logger.getLogger(StoreResource.class);
+	private static final Logger log = LogManager.getLogger(StoreResource.class);
 	private static final String moduleName = ExpathFTClientModule.MODULE_NAME;
 
     public static boolean storeResource(Object remoteConnection, String remoteResourcePath, InputStream resourceInputStream) throws Exception {

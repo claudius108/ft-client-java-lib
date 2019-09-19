@@ -37,7 +37,8 @@ import javax.xml.transform.stream.StreamResult;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import ro.kuberam.libs.java.ftclient.AbstractConnection;
 import ro.kuberam.libs.java.ftclient.ErrorMessages;
 import ro.kuberam.libs.java.ftclient.ExpathFTClientModule;
@@ -49,7 +50,7 @@ import ro.kuberam.libs.java.ftclient.utils.GenerateResourceElement;
  * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
  */
 public class FTP extends AbstractConnection {
-	private static final Logger log = Logger.getLogger(FTP.class);
+	private static final Logger log = LogManager.getLogger(FTP.class);
 	private static String moduleNsUri = "";
 	static {
 		moduleNsUri = ExpathFTClientModule.NAMESPACE_URI;

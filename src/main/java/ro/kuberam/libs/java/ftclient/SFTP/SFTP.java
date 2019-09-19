@@ -39,7 +39,8 @@ import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.stream.StreamResult;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import ro.kuberam.libs.java.ftclient.AbstractConnection;
 import ro.kuberam.libs.java.ftclient.ErrorMessages;
 import ro.kuberam.libs.java.ftclient.ExpathFTClientModule;
@@ -61,7 +62,7 @@ import com.jcraft.jsch.SftpException;
  */
 public class SFTP extends AbstractConnection {
 
-	private static final Logger log = Logger.getLogger(SFTP.class);
+	private static final Logger log = LogManager.getLogger(SFTP.class);
 	private static String moduleNsUri = "";
 	static {
 		moduleNsUri = ExpathFTClientModule.NAMESPACE_URI;

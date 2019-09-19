@@ -34,7 +34,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements the module definition.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class ExpathFTClientModule {
 

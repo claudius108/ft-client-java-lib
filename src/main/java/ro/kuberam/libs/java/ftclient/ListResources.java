@@ -30,7 +30,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for listing resources (files and directories) within a remote directory.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class ListResources {
 	private static final Logger log = LogManager.getLogger(ListResources.class);

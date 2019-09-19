@@ -30,7 +30,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for getting metadata for a resource.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class GetResourceMetadata {
 	private static final Logger log = LogManager.getLogger(ListResources.class);

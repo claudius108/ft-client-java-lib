@@ -29,7 +29,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for opening a remote connection.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 
 

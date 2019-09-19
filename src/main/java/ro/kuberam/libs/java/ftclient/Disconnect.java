@@ -29,7 +29,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for closing a remote connection.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class Disconnect {
 	private static final Logger log = LogManager.getLogger(Disconnect.class);

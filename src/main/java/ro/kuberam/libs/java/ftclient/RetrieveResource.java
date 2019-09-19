@@ -28,7 +28,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Implements a method for retrieving a remote resource.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class RetrieveResource {
 	private static final Logger log = LogManager.getLogger(RetrieveResource.class);

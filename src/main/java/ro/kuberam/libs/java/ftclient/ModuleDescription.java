@@ -4,7 +4,7 @@ package ro.kuberam.libs.java.ftclient;
 /**
  * Module description.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */      
 public class ModuleDescription {
       public final static String VERSION = "1.0";

@@ -47,7 +47,7 @@ import ro.kuberam.libs.java.ftclient.utils.GenerateResourceElement;
 /**
  * Implements a public interface for a FTP connection.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class FTP extends AbstractConnection {
 	private static final Logger log = LogManager.getLogger(FTP.class);

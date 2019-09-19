@@ -58,7 +58,7 @@ import com.jcraft.jsch.SftpException;
 /**
  * Implements a public interface for a SFTP connection.
  * 
- * @author Claudius Teodorescu <claudius.teodorescu@gmail.com>
+ * Created by Claudius Teodorescu.
  */
 public class SFTP extends AbstractConnection {
 

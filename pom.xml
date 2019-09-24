@@ -84,8 +84,8 @@
 		</dependency>
 		<dependency>
 			<groupId>ro.kuberam</groupId>
-			<artifactId>junit-tests</artifactId>
-			<version>0.1</version>
+			<artifactId>base</artifactId>
+			<version>0.2.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
